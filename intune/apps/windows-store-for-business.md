@@ -55,7 +55,8 @@ Review the following information before you start syncing and assigning apps fro
 - To use this capability, devices must be joined to Active Directory Domain Services, or workplace-joined.
 - Enrolled devices must be using the 1511 release of Windows 10 or later.
 
-Additionally, related sets and Offline Licensed apps synced from the Microsoft Store for Business will now be consolidated into a single app entry in the UI. Any deployment details from the individual packages will be migrated over to the single entry. To view related sets in the Azure portal, select **App licenses** from the **Apps** pane.
+> [!NOTE]
+If you disable the Store on managed devices (either manually, via policy or Group Policy), Online licensed apps will fail to install.
 
 ## Associate your Microsoft Store for Business account with Intune
 Before you enable synchronization in the Intune console, you must configure your store account to use Intune as a management tool:
